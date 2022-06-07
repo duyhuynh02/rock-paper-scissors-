@@ -1,0 +1,116 @@
+/* * {
+    border: 2px solid red;
+} */
+
+.game-title {
+    /* display: flex; */
+    background-color: #02072F;
+    color: white;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 80px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 4px;
+    border: 4px solid salmon;
+}
+
+.game-play {
+    display: flex;
+    height: 380px;
+    padding: 16px;
+    background: plumn;
+    border: 4px solid indigo;
+    justify-content: space-around;
+}
+
+.player-box,
+.computer-box {
+    width: 500px;
+    height: 330px;
+    border: 4px solid darkviolet;
+    display: flex;
+    flex-direction: column;
+}
+
+.player,
+.computer {
+    text-align: center;
+    font-size: 50px;
+    /* border: 4px solid gray; */
+}
+
+
+.player-choice,
+.computer-choice {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    padding-top: 8px;
+}
+
+.button,
+#computer-button-rock,
+#computer-button-paper,
+#computer-button-scissors {
+    display: flex;
+    width: 120px;
+    height: 140px;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    border: 4px solid gray;
+    background-color: darkcyan;
+}
+
+#player-score,
+#computer-score {
+    height: 100px;
+    text-align: center;
+    font-weight: 900;
+    font-family: fantasy;
+    font-size: 90px;
+    /* border: 4px solid gray; */
+}
+
+
+.start-reset {
+    height: 260px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    border: 4px solid salmon;
+    background-color: rgb(238, 154, 81);
+}
+
+#result {
+    display: flex;
+    height: 80px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 800;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+}
+
+
+.footer {
+    display: flex;
+    padding: 16px;
+    height: 100px;
+    justify-content: center;
+    gap: 8px;
+}
+
+#reset-game {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    align-items: center;
+    width: 200px;
+    border: 4px solid black;
+    background-color: blanchedalmond;
+
+}
